@@ -22,7 +22,7 @@ You can run "main.py" and play using the following keys:
 ## How to play using another program
 To import and send commands to the game, you can uso the following code:
 ````
-from Skier_Game.Skier import Game
+from Skier_Game_Like_Gym.Skier import Game
 skier = Game()
 skier.start(keyboard_game=False, increase_speed=1, low_speed=15, max_speed=25)
 while True:
